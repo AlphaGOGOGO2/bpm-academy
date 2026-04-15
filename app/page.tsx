@@ -7,6 +7,7 @@ import { About } from "@/components/sections/About";
 import { Class } from "@/components/sections/Class";
 import { Instructor } from "@/components/sections/Instructor";
 import { Visit } from "@/components/sections/Visit";
+import { StructuredData } from "@/components/seo/StructuredData";
 
 const TICKER = [
   "BPM STUDIO",
@@ -23,6 +24,7 @@ const TICKER = [
 export default function Page() {
   return (
     <>
+      <StructuredData />
       <FloatingHeader />
       <IssueRail />
       <main>
