@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-surface: #0a0a0a;
+  --color-surface-2: #121212;
+  --color-line: #222222;
+  --color-text: #ffffff;
+  --color-text-dim: #aaaaaa;
+  --color-text-mute: #666666;
+  --color-neon-pink: #ff0080;
+  --color-neon-cyan: #00c8ff;
+  /* Display face — Bowlby One (Google Fonts CDN). 구 변수명 --font-grunt는 호환성 위해 유지 */
+  --font-grunt: var(--font-display), "Arial Black", Impact, sans-serif;
+  --font-serif: var(--font-fraunces), "Times New Roman", Georgia, serif;
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Noto Sans KR", sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-paper: #ece2cc;
+  --color-paper-ink: #1a1814;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+}
+
+/* Ensure interactive targets are tap-friendly on mobile */
+@media (max-width: 768px) {
+  a, button {
+    min-height: 40px;
+  }
+  a.inline, button.inline {
+    min-height: auto;
+  }
+}
+
+::selection {
+  background: var(--color-neon-pink);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-neon-cyan);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

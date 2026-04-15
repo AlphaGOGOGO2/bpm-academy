@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Env
+.env*.local
+.env
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Brainstorming / specs workspace cache
+.superpowers/
+_superpowers_tmp/
+_docs_tmp/
+
+# Playwright / screenshots scratch
+.playwright-mcp/
+desktop-*.png
+mobile-*.png
+google-embed-check.png
+
+# IDE
+.vscode/
+.idea/
