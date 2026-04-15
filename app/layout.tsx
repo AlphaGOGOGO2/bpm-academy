@@ -94,6 +94,12 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: true,
   },
+  verification: {
+    other: {
+      "naver-site-verification":
+        "5e4da5efe0675a9a14a1d2ad4de9c99fd605ab9e",
+    },
+  },
 };
 
 export default function RootLayout({
