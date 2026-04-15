@@ -21,7 +21,8 @@
       "Bash(rm -f desktop-*.png mobile-*.png google-embed-check.png)",
       "Bash(ls *.png)",
       "Bash(gh repo *)",
-      "WebFetch(domain:bpm-academy.vercel.app)"
+      "WebFetch(domain:bpm-academy.vercel.app)",
+      "WebFetch(domain:bpmmusicstudio.co.kr)"
     ],
     "additionalDirectories": [
       "d:\\저장용\\grunt\\grunt"

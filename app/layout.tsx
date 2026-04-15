@@ -25,7 +25,7 @@ const bowlbyOne = Bowlby_One({
   weight: ["400"],
 });
 
-const SITE_URL = "https://bpm-academy.vercel.app";
+const SITE_URL = "https://bpmmusicstudio.co.kr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

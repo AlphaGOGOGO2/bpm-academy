@@ -7,7 +7,7 @@
  * Google Search Console → Rich Results 인식 목표.
  */
 
-const BASE_URL = "https://bpm-academy.vercel.app";
+const BASE_URL = "https://bpmmusicstudio.co.kr";
 
 export function StructuredData() {
   const musicSchool = {

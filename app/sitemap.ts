@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://bpm-academy.vercel.app";
+const BASE_URL = "https://bpmmusicstudio.co.kr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
