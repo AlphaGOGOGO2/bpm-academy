@@ -51,7 +51,7 @@ export function Hero() {
       >
         <a href="#top" aria-label="BPM 뮤직 스튜디오 홈">
           <Image
-            src="/images/logo/bpm-plain.png"
+            src="/images/logo/bpm-plain.webp"
             alt="BPM 뮤직 스튜디오"
             width={280}
             height={112}
@@ -224,7 +224,7 @@ function GiantBPM() {
         }}
       >
         <Image
-          src="/images/logo/bpm-vinyl.png"
+          src="/images/logo/bpm-vinyl.webp"
           alt=""
           fill
           priority
@@ -261,7 +261,7 @@ function VinylSleevePortrait() {
         {/* image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/kndrx/01.jpg"
+            src="/images/kndrx/01.webp"
             alt="DJ KNDRX — 블루 네온 아래 부스에서 디제잉 중"
             fill
             priority

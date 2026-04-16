@@ -110,7 +110,7 @@ export function Instructor() {
                 </div>
 
                 <Image
-                  src="/images/kndrx/02.jpg"
+                  src="/images/kndrx/02.webp"
                   alt="DJ KNDRX 포트레이트"
                   fill
                   sizes="(min-width:768px) 420px, 100vw"

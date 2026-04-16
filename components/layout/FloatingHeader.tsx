@@ -41,7 +41,7 @@ export function FloatingHeader() {
       <div className="flex items-center justify-between px-6 md:px-14 py-3.5 font-[family-name:var(--font-plex-mono)]">
         <a href="#top" className="inline-flex items-center">
           <Image
-            src="/images/logo/bpm-plain.png"
+            src="/images/logo/bpm-plain.webp"
             alt="BPM"
             width={200}
             height={80}

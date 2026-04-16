@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/kndrx/01.jpg",
+        url: "/images/kndrx/01.webp",
         width: 1200,
         height: 630,
         alt: "DJ KNDRX — BPM 뮤직 스튜디오 부스에서 디제잉 중",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     title: "BPM 뮤직 스튜디오 · DJ KNDRX 1:1 힙합 DJ 레슨",
     description:
       "대전 둔산동. 16년차 현업 힙합 DJ의 1:1 맞춤 DJ 레슨. Since 2010.",
-    images: ["/images/kndrx/01.jpg"],
+    images: ["/images/kndrx/01.webp"],
   },
   category: "education",
   icons: {

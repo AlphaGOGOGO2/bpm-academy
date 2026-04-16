@@ -51,7 +51,7 @@ export function Footer() {
         <div>
           <div className="relative h-16 w-auto inline-block">
             <Image
-              src="/images/logo/bpm-plain.png"
+              src="/images/logo/bpm-plain.webp"
               alt="BPM 뮤직 스튜디오 로고"
               width={240}
               height={96}

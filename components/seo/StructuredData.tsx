@@ -17,10 +17,10 @@ export function StructuredData() {
     name: "BPM 뮤직 스튜디오",
     alternateName: ["BPM Music Studio", "비피엠 뮤직 스튜디오"],
     url: BASE_URL,
-    logo: `${BASE_URL}/images/logo/bpm-plain.png`,
+    logo: `${BASE_URL}/images/logo/bpm-plain.webp`,
     image: [
-      `${BASE_URL}/images/kndrx/01.jpg`,
-      `${BASE_URL}/images/kndrx/02.jpg`,
+      `${BASE_URL}/images/kndrx/01.webp`,
+      `${BASE_URL}/images/kndrx/02.webp`,
     ],
     description:
       "대전 둔산동에 위치한 힙합 DJ 아카데미. 16년차 현업 힙합 DJ KNDRX의 1:1 (최대 2:1) 맞춤 DJ 레슨.",
@@ -91,7 +91,7 @@ export function StructuredData() {
     description:
       "2010년부터 활동해온 베테랑. 한국 힙합씬 최고의 DJ 중 한 명. BewhY · JUSTHIS · 쿤디판다 등의 전담 백업 DJ로 활약. 홍대 블루프린트 · 신림 파이프 · 홍대 Mhood 설립 및 운영.",
     worksFor: { "@id": `${BASE_URL}/#organization` },
-    image: `${BASE_URL}/images/kndrx/02.jpg`,
+    image: `${BASE_URL}/images/kndrx/02.webp`,
     url: BASE_URL,
     sameAs: ["https://www.instagram.com/djkndrx"],
   };
